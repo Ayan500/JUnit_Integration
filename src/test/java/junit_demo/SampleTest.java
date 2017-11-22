@@ -10,7 +10,7 @@ public class SampleTest {
 	public void simpleTestPass(){
 		int a=1; 
 		int b=2;
-		assertTrue(a + b ==3);
+		assertTrue(a + b ==5);
 		
 	}
 	@Test
@@ -18,6 +18,15 @@ public class SampleTest {
 		int a=2; 
 		int b=2;
 		assertTrue(a + b ==9);
+		
+	}
+	@Test
+	public void simpleTestnull(){
+		int a=3; 
+		int b=2;
+		SampleTest test = null;
+		assertNull(a);
+		
 	}
 
 }
