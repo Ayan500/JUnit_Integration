@@ -24,9 +24,18 @@ public class SampleTest {
 	public void simpleTestnull(){
 		int a=3; 
 		int b=2;
-		SampleTest test = null;
+		
 		assertNotNull(a);
 		
 	}
 
+	@Test
+	public void simpleTesttrue(){
+		int a=-3; 
+		int b=2;
+	
+		assertTrue(a>0);
+		
+		
+	}
 }
