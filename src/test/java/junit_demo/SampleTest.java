@@ -10,14 +10,14 @@ public class SampleTest {
 	public void simpleTestPass(){
 		int a=1; 
 		int b=2;
-		assertTrue(a + b ==5);
+		assertTrue(a + b ==3);
 		
 	}
 	@Test
 	public void simpleTestFail(){
 		int a=2; 
 		int b=2;
-		assertTrue(a + b ==9);
+		assertTrue(a + b ==4);
 		
 	}
 	@Test
